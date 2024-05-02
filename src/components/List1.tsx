@@ -20,7 +20,7 @@ const List1: FunctionComponent<List1Type> = ({
   prop,
   propMinWidth,
 }) => {
-  const am2Style: CSSProperties = useMemo(() => {
+  const amStyle: CSSProperties = useMemo(() => {
     return {
       minWidth: propMinWidth,
     };
@@ -44,7 +44,7 @@ const List1: FunctionComponent<List1Type> = ({
           </div>
           <div className={styles.searchIcon}>
             <div className={styles.unreadNumberList}>
-              <div className={styles.am} style={am2Style}>
+              <div className={styles.am} style={amStyle}>
                 {am}
               </div>
               <div className={styles.unreadNo}>

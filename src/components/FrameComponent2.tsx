@@ -17,7 +17,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
   propAlignSelf,
   propFlex,
 }) => {
-  const am3Style: CSSProperties = useMemo(() => {
+  const am1Style: CSSProperties = useMemo(() => {
     return {
       display: propDisplay,
       minWidth: propMinWidth,
@@ -55,7 +55,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
               </div>
             </div>
             <div className={styles.amParent}>
-              <div className={styles.am} style={am3Style}>
+              <div className={styles.am} style={am1Style}>
                 01:55 pm
               </div>
               <div className={styles.unreadNo} style={unreadNoStyle}>

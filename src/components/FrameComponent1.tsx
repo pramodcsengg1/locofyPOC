@@ -28,7 +28,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
     };
   }, [propPadding]);
 
-  const amStyle: CSSProperties = useMemo(() => {
+  const am2Style: CSSProperties = useMemo(() => {
     return {
       minWidth: propMinWidth,
     };
@@ -48,7 +48,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
             </div>
             <div className={styles.conditionSplitter}>
               <div className={styles.valueTransformer}>
-                <div className={styles.am} style={amStyle}>
+                <div className={styles.am} style={am2Style}>
                   {am}
                 </div>
                 <div className={styles.unreadNo}>

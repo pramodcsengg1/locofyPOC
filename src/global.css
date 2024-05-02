@@ -8,50 +8,50 @@ body {
   --font-plus-jakarta-sans: "Plus Jakarta Sans";
 
   /* font sizes */
-  --font-size-sm: 14px;
+  --font-size-3xs: 10px;
   --font-size-xs: 12px;
   --font-size-base: 16px;
-  --font-size-3xs: 10px;
+  --font-size-sm: 14px;
 
   /* Colors */
-  --color-white: #fff;
-  --dark-01: #09132c;
-  --color-gray-100: rgba(1, 1, 1, 0.87);
   --color-whitesmoke-100: #f5fafc;
-  --dark-03: #5a6a9d;
   --primary-01: #128c7e;
   --color-lightcyan: #dff7f4;
   --color-cadetblue: #829c99;
+  --dark-01: #09132c;
+  --color-gray-100: rgba(1, 1, 1, 0.87);
   --primary-02: #d1e4e8;
+  --dark-03: #5a6a9d;
+  --color-white: #fff;
   --dark-04: #9393c1;
 
   /* Gaps */
   --gap-5xl: 24px;
-  --gap-5xs: 8px;
-  --gap-9xs: 4px;
-  --gap-xs: 12px;
   --gap-base: 16px;
-  --gap-xl: 20px;
+  --gap-xs: 12px;
+  --gap-5xs: 8px;
   --gap-3xs-9: 9.9px;
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
 
   /* Paddings */
-  --padding-base: 16px;
-  --padding-5xl: 24px;
-  --padding-xs: 12px;
   --padding-xl: 20px;
-  --padding-9xs: 4px;
+  --padding-4xs: 9px;
+  --padding-xs: 12px;
+  --padding-7xs: 6px;
+  --padding-9xl: 28px;
+  --padding-11xs: 2px;
   --padding-22xl: 41px;
   --padding-5xs: 8px;
-  --padding-4xs: 9px;
-  --padding-7xs: 6px;
-  --padding-11xs: 2px;
   --padding-3xs: 10px;
   --padding-mini: 15px;
   --padding-31xl: 50px;
-  --padding-9xl: 28px;
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
 
   /* Border radiuses */
+  --br-5xs: 8px;
   --br-5xl: 24px;
   --br-base: 16px;
-  --br-5xs: 8px;
 }
