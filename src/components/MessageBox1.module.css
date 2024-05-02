@@ -1,0 +1,95 @@
+.formatConverterIcon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.palakKapoor {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 92px;
+}
+.dataMapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hahaThatsTerrifying {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+}
+.dataSorter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.am {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 44px;
+  white-space: nowrap;
+}
+.iconlylightpin {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.outputSplitter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: right;
+  font-size: var(--font-size-3xs);
+  color: var(--color-cadetblue);
+}
+.filterChain,
+.list,
+.messagebox {
+  display: flex;
+  justify-content: flex-start;
+}
+.filterChain {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.list,
+.messagebox {
+  align-self: stretch;
+}
+.list {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.messagebox {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark-01);
+  font-family: var(--font-plus-jakarta-sans);
+}

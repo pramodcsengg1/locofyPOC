@@ -1,0 +1,93 @@
+.listChild {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hahaThatsTerrifying,
+.palakKapoor {
+  align-self: stretch;
+  position: relative;
+}
+.palakKapoor {
+  margin: 0;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.hahaThatsTerrifying {
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  color: var(--dark-03);
+}
+.palakKapoorParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.am,
+.tick16px {
+  position: relative;
+}
+.am {
+  line-height: 16px;
+  display: inline-block;
+  min-width: 45px;
+  white-space: nowrap;
+}
+.tick16px {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.amParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: right;
+  font-size: var(--font-size-3xs);
+  color: var(--color-cadetblue);
+}
+.frameParent,
+.list,
+.messagebox {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.list,
+.messagebox {
+  align-self: stretch;
+}
+.list {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.messagebox {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-02);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark-01);
+  font-family: var(--font-plus-jakarta-sans);
+}

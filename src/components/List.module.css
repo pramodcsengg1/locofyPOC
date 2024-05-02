@@ -1,0 +1,116 @@
+.listChild {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hahaThatsTerrifying,
+.palakKapoor {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.hahaThatsTerrifying {
+  height: 16px;
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+}
+.messageBubbleList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.am {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.palakKapoorList {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-lightcyan);
+}
+.b {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.amParent,
+.unreadNo {
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.unreadNo {
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  flex-direction: row;
+  padding: var(--padding-11xs) 0;
+  text-align: center;
+  color: var(--primary-01);
+}
+.amParent {
+  width: 44px;
+  top: calc(50% - 22px);
+  flex-direction: column;
+  padding: 0 0 var(--padding-9xl);
+  gap: var(--gap-5xs);
+  text-align: right;
+  font-size: var(--font-size-3xs);
+  color: var(--color-cadetblue);
+}
+.messageBubbleListParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-base);
+}
+.list,
+.messageBubbleListParent,
+.messageHeaderList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.messageHeaderList {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.list {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark-01);
+  font-family: var(--font-plus-jakarta-sans);
+}

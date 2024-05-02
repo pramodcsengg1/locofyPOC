@@ -1,0 +1,120 @@
+.listChild {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hahaThatsTerrifying,
+.palakKapoor {
+  align-self: stretch;
+  position: relative;
+}
+.palakKapoor {
+  margin: 0;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.hahaThatsTerrifying {
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+}
+.palakKapoorParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.am {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 40px;
+  white-space: nowrap;
+}
+.errorHandler,
+.sequenceController {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.errorHandler {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: var(--color-lightcyan);
+}
+.sequenceController {
+  height: 80%;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.unreadNo {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+  color: var(--primary-01);
+}
+.conditionSplitter,
+.valueTransformer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.valueTransformer {
+  align-items: flex-end;
+  gap: var(--gap-5xs);
+}
+.conditionSplitter {
+  align-items: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  text-align: right;
+  font-size: var(--font-size-3xs);
+  color: var(--color-cadetblue);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.frameParent,
+.list,
+.listInner,
+.listWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.list,
+.listWrapper {
+  flex-direction: row;
+}
+.list {
+  flex: 1;
+  gap: var(--gap-xs);
+}
+.listWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xs) var(--padding-5xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark-01);
+  font-family: var(--font-plus-jakarta-sans);
+}
